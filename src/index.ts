@@ -38,8 +38,8 @@ const errorHandler = (err: createHttpError.HttpError, req: Request, res: Respons
 }
 app.use(errorHandler);
 // start the Express server
-app.listen(port, () => {
-    console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
-});
+// app.listen(port, () => {
+//     console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
+// });
 
 export default app;
