@@ -10,7 +10,7 @@ const port = Number(process.env.PORT)||3000;
 
 // index page
 app.get('/', (req: Request, res: Response) => {
-    res.send('Hello World!<p></p><a href="/home">Home</a>');
+    res.send('Hello World!<p></p><a href="/home.html">Home</a>');
 });
 // static files
 let options = {
