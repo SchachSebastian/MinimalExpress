@@ -12,9 +12,6 @@ const port = Number(process.env.PORT)||3000;
 app.get('/', (req: Request, res: Response) => {
     res.send('Hello World!<p></p><a href="/home">Home</a>');
 });
-app.get('/what', (req: Request, res: Response) => {
-    res.send('Hello World!<p></p><a href="/home">Home</a>');
-});
 // static files
 let options = {
     dotfiles: 'ignore',
